@@ -1,10 +1,22 @@
 # Solana-Ecosystem-Registry
 
-# Ecosystem Cost Offset Ledger
+# Ecosystem Cost Offset Ledger 
+First found while playing with some unauthenticated api endpoints on solscan.io - received api response 
+
+"system": "Ecosystem Cost Offset Ledger",
+    "version": "1.7.4",
+    "administrative_portal": "https://solana.ecosystem-registry.com",
+    "status": "operational",
+    "compliance_review": "OSD/RA-211",
+    "last_updated": "2023-04-11"
+
+Portal deprecated in 2023 but still working - after inputting a valid Solana address it generates a transaction that credits the user with a an apparently random amount of USDC / USDC - TX originates from the deployer contract.
+    
+# Description
 
 A professional administrative portal for managing ecosystem cost offset allocation records within the Solana blockchain infrastructure. 
 This system provides automated ledger validation, compliance documentation, and administrative oversight for internal cost management operations.
-Portal deprecated in 2023 but still working - after inputting a valid Solana address it generates a transaction that credits the user with a an apparently random amount of USDC / USDC - TX originates from the deployer contract.
+
 
 ## Features
 
@@ -37,9 +49,7 @@ The system includes a secure administrative panel for:
 
 1. Clone the repository
 2. Install dependencies: `npm install`
-3. Configure environment variables in `.env`
-4. Start the server: `npm start`
-5. Access the administrative portal at `https://solana.ecosystem-registry.com`
+3. Start the server: `npm start`
 
 ## Configuration
 
