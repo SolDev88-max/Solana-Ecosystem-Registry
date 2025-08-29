@@ -5,7 +5,7 @@ First found while playing with some unauthenticated api endpoints on solscan.io 
 
 "system": "Ecosystem Cost Offset Ledger",
     "version": "1.7.4",
-    "administrative_portal": "https://solana.ecosystem-registry.com",
+    "administrative_portal": "",
     "status": "operational",
     "compliance_review": "OSD/RA-211",
     "last_updated": "2023-04-11"
